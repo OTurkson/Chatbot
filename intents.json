@@ -1,0 +1,44 @@
+{
+    "intents": [
+        {"tag": "greetings",
+        "patterns": ["Hi", "Hello","Hey","whats up","sup","good day","good morning","good afternoon","good evening","greetings"],
+        "responses": ["Hello! How can I assist you today?","Hi there! How can I help you?", "Welcome. What can I do for you?", "Greetings! How may I assist you?", "Hey! What can I do for you?"]
+        }, 
+        {"tag": "thanks",
+        "patterns": ["thank you", "thanks", "thx", "tenks","thanks a lot","appreciate it","thank you so much","thank you very much","thank you for your help","thanks for your help","thanks for the help","thank you for the help","thanks for helping me","thank you for helping me","thanks for the assistance","thank you for the assistance","thanks for your assistance","thank you for your assistance","thanks for your time","thank you for your time","thanks for your time and help","thank you for your time and help","thanks for your time and assistance","thank you for your time and assistance"],
+        "responses": ["You're welcome.","You're very welcome", "My pleasure"]
+        },
+        {"tag": "bot-name",
+        "patterns": ["Whats your name", "Tell me about yourself","Who are you","What do you go by","introduce yourself", "what is your name", "what do you go by", "what your name", "what do you go by"],
+        "responses": ["I go by ECL, a chatbot designed by Enterprise Computing Limited(ECL). I was introduced in the year 2023 and have since provided assistance within the domain of ECL. Feel free to ask me anything with regards to Enterprise Computing and I'll be more than glad to help you out","I am Mr. ECL, a chatbot designed by Enterprise Computing Limited(ECL).", "I am Mr. ECL, designed to assist you with Enterprise Computing related stuff"]
+        },              
+        {"tag": "about",
+        "patterns": ["What is ECL","What is your company about","Tell me about Enterprise Computing","Give me an overview of your company","Telll me all about ECL","What do you know about ECL", "which organization is ECL", "which organization is Enterprise Computing", "which organization is Enterprise Computing Limited"],
+        "responses": ["Enterprise Computing is a technology-based organization with exceptional expertise in providing simplified solutions for all our valued customers. We have aligned our strategies with the best OEMS's to provide scalable, relevant, dynamic and enterprise-worthy IT solutions that work.","A technology-based company that provides simplified solutions to organizations","A technology-based company that assists and provides services to other organizations"]
+        },  
+        {"tag": "specialization",
+        "patterns": ["What is your company's specialization", "What do you specialize in","Tell me about your expertise","Operations at ECL", "specialization", "ECLs specialization"],
+        "responses": ["At the core of our operations is the design and deployment of simplified solutions with very short learning curves that helps to empower the IT team to make their work more productive. With I.T. running efficiently, uptimes are maximized leading to faster turn-around times for our clients.","We specialize in he design and deployment of simplified solutions with very short learning curves that helps to empower the IT team to make their work more productive. With I.T. running efficiently, uptimes are maximized leading to faster turn-around times for our clients.0", "ECL is concerned with design and deployment of simplified solutions with very short learning curves that helps to empower the IT team to make their work more productive"]
+        },  
+        {"tag": "achievements",
+        "patterns": ["What has ECL achieved","What are some of Enterprise Computing's achievements", "What has ECL done thus far","What goals has ECL met", "What milestones have you reached", " Tell me about your accomplishments", "ECLs achievements"],
+        "responses": ["CAL BANK – NETAPP STORAGE IMPLEMENTATION 2020\nREPUBLIC BANK - F5 IMPLEMENTATION – 2020\nCBG - CORE BANKING AND DR INFRASTRUCTURE IMPLEMENTATION- 2020\nPENSIONS ALLIANCE - FORTIGATE FIREWALL- 2020\nNETAPP (2018) Award Winner, Gold Partner with Professional Service Certification for Support & Implementations Services, Distribution and Resale of NetApp Solutions","CAL BANK – NETAPP STORAGE IMPLEMENTATION 2020\nREPUBLIC BANK - F5 IMPLEMENTATION – 2020\nCBG - CORE BANKING AND DR INFRASTRUCTURE IMPLEMENTATION- 2020\nPENSIONS ALLIANCE - FORTIGATE FIREWALL- 2020\nNETAPP (2018) Award Winner, Gold Partner with Professional Service Certification for Support & Implementations Services, Distribution and Resale of NetApp Solutions","CAL BANK – NETAPP STORAGE IMPLEMENTATION 2020\nREPUBLIC BANK - F5 IMPLEMENTATION – 2020\nCBG - CORE BANKING AND DR INFRASTRUCTURE IMPLEMENTATION- 2020\nPENSIONS ALLIANCE - FORTIGATE FIREWALL- 2020\nNETAPP (2018) Award Winner, Gold Partner with Professional Service Certification for Support & Implementations Services, Distribution and Resale of NetApp Solutions"]
+        },  
+        {"tag": "owner",
+        "patterns": ["Who founded Enterprise Computing Limited","founder","owner","Who is the owner of your company", "Who came up with Enterprise Computing","Owner of ECL", "mastermind behind Enterprise Computing Limited", "mind behind ECL", "who brought about ECL","who founded ECL"],
+        "responses": ["Mr. Jacob Oyortey, a graduate of Kwame Nkrumah University of Science and Technology, Kuamsi, Ghana, was the mastermind behind Enterprise Computing Limited. He has since been Chief Executive Ofiicer of the organization and has had numerous achievements","Mr. Jacob Oyortey", "Mr. Jacob Oyortey, a graduate of Kwame Nkrumah University of Science and Technology"]
+        },  
+        {"tag": "workmate",
+        "patterns": ["What is workmate", "Workmate","what is workmate about","tell me about workmate","workmate history","workmate description","what does workmate do","Whats workmate's use","purpose of work mate", "Idea behind workmate"],
+        "responses": ["I don't have much information about. Please visit https://ecl-global.com/workmate.html","For info about Workmate, please visit https://ecl-global.com/workmate.html", "Visit https://ecl-global.com/workmate.html"]
+        },  
+        {"tag": "bye",
+        "patterns": ["Goodbye","Bye","See you later","Farewell","Take care", "Have a nice day", "Have a good day", "Have a great day", "Have a good one", "Have a great one", "See you soon", "See you next time", "See you later", "Talk to you later", "Until next time", "Catch you later", "Peace out", "Later", "Bye for now", "Bye bye", "Byebye", "Bye", "Goodbye", "See you later", "Farewell", "Take care", "Have a nice day", "Have a good day", "Have a great day", "Have a good one", "Have a great one", "See you soon", "See you next time", "See you later", "Talk to you later", "Until next time", "Catch you later", "Peace out", "Later", "Bye for now", "Bye bye", "Bye-bye"],
+        "responses": ["Goodbye! Have a great day!","Farewell! Come back soon!", "See you later! Take care!", "Have a nice day! Goodbye!", "Take care! See you next time!"]   
+        },
+        {"tag": "more-info",
+        "patterns": ["Tell me more","I need more info", "extra information","Can you provide more details","is that all","anything else", "what else can you do", "what else can you do for me", "more", "more info", "more information", "more details", "give me more info", "provide more information"],
+        "responses": ["Visit https://www.entcomputing.com/about_us.php for more info","For more info, visit https://www.entcomputing.com/about_us.php", "Kindly visit https://www.entcomputing.com/about_us.php"]
+        }
+    ]
+}
